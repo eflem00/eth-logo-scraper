@@ -1,0 +1,23 @@
+{
+  "name": "lake-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^14.2.0",
+    "puppeteer": "^13.0.1"
+  }
+}
